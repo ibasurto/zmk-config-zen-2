@@ -31,12 +31,12 @@
                         label = "NUMBER";
 // -----------------------------------------------------------------------------------------
 // |  ESC |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-// |  TAB |     |     |PG_UP|PG_DN|     |   | HOME| LFT | DWN |  UP | RGT | END  |
+// |  TAB |     | HOME|PG_UP|PG_DN| END |   | LFT | DWN | UP  | RGT |     |      |
 // | LCTRL|     |     |     |     |BTCLR|   | BT1 | BT2 | BT3 | BT4 | BT5 |RSHIFT|
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
    &kp ESC    &kp N1  &kp N2  &kp N3     &kp N4     &kp N5       &kp N6        &kp N7        &kp N8        &kp N9        &kp N0        &kp BSPC
-   &kp TAB    &trans  &trans  &kp PG_UP  &kp PG_DN  &trans       &kp HOME      &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &kp END
+   &kp TAB    &trans  &p HOME &kp PG_UP  &kp PG_DN  &kp END      &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &trans        &trans
    &kp LCTRL  &trans  &trans  &trans     &trans     &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4  &kp RSHIFT
                                  &kp LGUI  &trans  &kp SPACE    &kp RET       &trans        &kp RALT
                         >;
